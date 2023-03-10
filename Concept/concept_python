@@ -1,0 +1,6 @@
+1. list สามารถ edit ค่าได้หลังจากที่ declare ไปแล้วแต่ tuple ไม่สามารถ edit ค่าได้หลังจากที่ declare ไปแล้ว ,
+tuple มีคุณสมบัติเป็น immutable ซึ่งจะคืนค่าเป็น pass by reference ทำให้ไม่ใช้ memory เหมือน list
+
+2. == จะดูที่ค่าของตัวแปรตรงๆ แต่ is จะดูที่ตำแหน่งของ object ที่เก็บใน memory
+
+3. ใช้ในการ initial ค่าต่าง ๆ ที่ใช้ใน code
